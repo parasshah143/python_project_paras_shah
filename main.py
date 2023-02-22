@@ -5,6 +5,7 @@ from mark import grade
 from emplyee_class import employee_runner
 from student_runner import stud_runner
 from browser_launch import launch
+from demo8_loops import demo1
 
 if __name__ == '__main__':
     runner.area_of_all()
@@ -16,3 +17,4 @@ if __name__ == '__main__':
     employee_runner.class_runner()
     stud_runner.class_runner()
     launch.launch_browser()
+    demo1.loops()
